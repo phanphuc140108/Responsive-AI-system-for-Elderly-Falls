@@ -1,5 +1,5 @@
-# Responsive-AI-system-for-Elderly-Falls
-A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rule-based logic. Built to monitor human posture, detect critical movements, and provide responsive alerts for elderly safety.
+# CV-Fall-Detection-for-Elderly
+A computer vision project for real-time fall detection using MediaPipe pose estimation and rule-based logic. Monitors human posture, detects critical movements, and sends responsive alerts to improve elderly safety.
 ---
 <!-- TOC start -->
 
