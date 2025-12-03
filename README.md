@@ -4,17 +4,17 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 <!-- TOC start -->
 
 ## TABLE OF CONTENTS
-* [Background Information](#1-background:).
-* [Solution](#2-proposed-solution:).
-* [Requirements](#3-requirements:).
-* [System Logic](#4-system-logic:)
-* [Tech Used](#5-tech-stack:)
-* [Applications](#6-applications:)
-* [Future Improvements](#7-future-improvements:)
+* [Background Information](#1-background).
+* [Solution](#2-proposed-solution).
+* [Requirements](#3-requirements).
+* [System Logic](#4-system-logic)
+* [Tech Used](#5-tech-stack)
+* [Applications](#6-applications)
+* [Future Improvements](#7-future-improvements)
 <!-- TOC end -->
 
 ---
-## 1. BACKGROUND:
+## 1. BACKGROUND
 
 - According to the World Health Organization (WHO), over 37 million falls requiring medical intervention occur each year worldwide.
 
@@ -24,7 +24,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 
 - Without timely assistance, even a minor fall can escalate into severe or life-threatening complications.
 
-## 2. PROPOSED SOLUTION: 
+## 2. PROPOSED SOLUTION
 A lightweight, camera-based monitoring system.
 
 ### General Workflow: Camera data → Pose estimation → Severity evaluation → Appropriate response.
@@ -37,7 +37,7 @@ A lightweight, camera-based monitoring system.
 
 - Triggering a responsive alert when a fall is detected.
 
-## 3. REQUIREMENTS:
+## 3. REQUIREMENTS
 
 ### Check the main requirements file at [REQUIREMENTS](https://github.com/phanphuc140108/Responsive-AI-system-for-Elderly-Falls/blob/main/requirements.txt)
 ### This is the general ones:
@@ -48,7 +48,7 @@ A lightweight, camera-based monitoring system.
 
 - Low cost, easy to deploy, minimal hardware requirements.
 
-## 4. SYSTEM LOGIC:
+## 4. SYSTEM LOGIC
 
 ### Pose Tracking:
 
@@ -77,7 +77,7 @@ A lightweight, camera-based monitoring system.
 
 ## -> No training required. Pure logic + keypoint data.
 
-## 5. TECH STACK:
+## 5. TECH STACK
 
 - Python.
 
@@ -89,7 +89,7 @@ A lightweight, camera-based monitoring system.
 
 - Gmail API Integration + smtplib (Python).
 
-## 6. APPLICATIONS:
+## 6. APPLICATIONS
 ### In Private Homes:
 
 - Ideal for elderly or disabled individuals living alone.
@@ -108,7 +108,7 @@ A lightweight, camera-based monitoring system.
 
 - Helps reduce response time and prevent severe injuries.
 
-## 7. FUTURE IMPROVEMENTS:
+## 7. FUTURE IMPROVEMENTS
 
 - Add SMS/IoT alert module.
 
