@@ -14,7 +14,8 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 - Without timely assistance, even a minor fall can escalate into severe or life-threatening complications.
 
 ## 2. PROPOSED SOLUTION: A lightweight, camera-based monitoring system.
-**General Workflow: Camera data → Pose estimation → Severity evaluation → Appropriate response**
+
+### General Workflow: Camera data → Pose estimation → Severity evaluation → Appropriate response.
 
 ### The system focuses on:
 
@@ -25,7 +26,8 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 - Triggering a responsive alert when a fall is detected.
 
 ## 3. REQUIREMENTS:
-### Check the main requirements file at requirement.txt**
+
+### Check the main requirements file at [REQUIREMENTS](https://github.com/phanphuc140108/Responsive-AI-system-for-Elderly-Falls/blob/main/requirements.txt)
 ### This is the general ones:
 
 - Works reliably with predefined camera setups.
@@ -61,7 +63,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
   + Verifies whether the drop is significant + persists for a few frames.
   + If conditions match → Trigger alert.
 
-## -> No training required. Pure logic + keypoint data.**
+## -> No training required. Pure logic + keypoint data.
 
 ## 5. TECH STACK:
 
