@@ -16,7 +16,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 ## 2. PROPOSED SOLUTION: A lightweight, camera-based monitoring system.
 **General Workflow: Camera data → Pose estimation → Severity evaluation → Appropriate response**
 
-**The system focuses on:**
+### The system focuses on:
 
 - Real-time posture monitoring.
 
@@ -25,8 +25,8 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 - Triggering a responsive alert when a fall is detected.
 
 ## 3. REQUIREMENTS:
-**Check the main requirements file at requirement.txt**
-**This is the general ones:**
+### Check the main requirements file at requirement.txt**
+### This is the general ones:
 
 - Works reliably with predefined camera setups.
 
@@ -36,7 +36,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 
 ## 4. SYSTEM LOGIC:
 
-**Pose Tracking:**
+### Pose Tracking:
 
 - A camera captures the user’s movements.
 
@@ -44,13 +44,13 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 
 - The body center is estimated from hip keypoints.
 
-**Coordinate System:**
+### Coordinate System:
 
 - Top-down screen coordinates.
 
 - Y increases downward.
 
-**Fall Detection Mechanism:**
+### Fall Detection Mechanism:
 
 - A fall typically causes the body to drop quickly → which shows up as a sudden increase in y_center on screen.
 
@@ -61,7 +61,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
   + Verifies whether the drop is significant + persists for a few frames.
   + If conditions match → Trigger alert.
 
-**-> No training required. Pure logic + keypoint data.**
+## -> No training required. Pure logic + keypoint data.**
 
 ## 5. TECH STACK:
 
@@ -76,7 +76,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 - Gmail API Integration + smtplib (Python).
 
 ## 6. APPLICATIONS:
-**In Private Homes:**
+### In Private Homes:
 
 - Ideal for elderly or disabled individuals living alone.
 
@@ -84,7 +84,7 @@ A real-time fall-detection pipeline leveraging MediaPipe pose estimation and rul
 
 - Provides peace of mind and ensures timely intervention.
 
-**In Public / Healthcare:**
+### In Public / Healthcare:
 
 - Hospitals, nursing homes, shopping malls, train stations, etc.
 
